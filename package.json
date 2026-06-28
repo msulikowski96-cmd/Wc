@@ -1,0 +1,10 @@
+{
+  "name": "world-cup-live-center",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A responsive World Cup Live Center dashboard for matches, standings, news, and fan insights.",
+  "scripts": {
+    "start": "python3 -m http.server 4173",
+    "build": "node scripts/validate-static-app.mjs"
+  }
+}
